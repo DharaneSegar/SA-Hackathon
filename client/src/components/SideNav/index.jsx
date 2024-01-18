@@ -26,9 +26,11 @@ const SideNav = () => {
         }`}
       >
         <div className="px-[20px] h-[64px] uppercase text-white font-bold text-xl w-full flex justify-center items-center gap-[20px]">
-          <div className={`md:flex text-center ${isOpen ? "block" : "hidden"}`}>
-            Dashboard
-          </div>
+          <img
+            src="https://www.wcd.com.my/wp-content/uploads/2023/01/hyatt-logo.png"
+            alt="Logo"
+            className="w-auto h-10" // Adjust the size as needed
+          />
           <div className="text-2xl flex md:hidden hover:text-cyan-900">
             <button
               onClick={() => {
